@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: #8E1F2F;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 48px;
+    color: #F0BC42;
+    margin: 40px 0px 40px 0px;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    border: 4px solid #977629;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #F0BC42;
+}
+
+.enter-num {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    color: #8E1F2F;
+    margin: 10px 0px 30px 0px;
+}
+
+#number {
+    padding: 10px 16px;
+    width: 93%;
+    border: 2px solid #8E1F2F;
+    background-color: #8E1F2F;
+    color: #F0BC42;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    margin: 10px 0px 30px 0px;
+}
+
+#convert-btn {
+    padding: 10px 16px;
+    margin: 15px 0px 0px;
+    width: 100%;
+    background-image: linear-gradient(rgb(246, 205, 101), #977629);
+    border: 2px solid #977629;
+    color: #8E1F2F;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+#convert-btn:active {
+    box-shadow: inset 2px 2px #977629, 2px 2px #977629;
+}
+
+#output {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    border: 4px solid #977629;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #F0BC42;
+    margin-top: 40px;
+    color: #8E1F2F;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
